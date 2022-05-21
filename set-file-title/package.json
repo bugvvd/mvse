@@ -1,5 +1,5 @@
 {
-  "name": "set-file-title",
+	"name": "set-file-title",
 	"displayName": "Set File Title",
 	"description": "LEAVE BLANK",
 	"version": "0.0.1",
@@ -10,14 +10,18 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:set-file-title.helloWorld"
+		"onStartupFinished"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "set-file-title.helloWorld",
-				"title": "Hello World"
+				"command": "set-file-title.activate",
+				"title": "Activate SFT"
+			},
+			{
+				"command": "set-file-title.initialize",
+				"title": "Initialize SFT"
 			}
 		]
 	},
