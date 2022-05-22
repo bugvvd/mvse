@@ -1,6 +1,6 @@
 # set-file-title README
 
-This is the README for your extension "set-file-title". After writing up a brief description, we recommend including the following sections.
+Hi SFT!
 
 ## Features
 
