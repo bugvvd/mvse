@@ -1,0 +1,10 @@
+{
+    ".c": "// c title",
+    ".cpp": "// c++ title",
+    ".js": "/* js title */",
+    ".jsx": "/* jsx title */",
+    ".py": "# python title",
+    ".ts": "/* ts title */",
+    ".tsx": "/* tsx title */",
+    ".md": "<!-- markdown title -->"
+}

@@ -1,1 +1,1 @@
-export default "**/*.{js,jsx,ts,tsx,md}";
+export default "**/*.{c,cpp,dart,h,java,js,jsx,py,ts,tsx,md}";

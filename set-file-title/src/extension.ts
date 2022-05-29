@@ -26,7 +26,9 @@ export function activate(context: vscode.ExtensionContext) {
     })
   );
   vscode.commands.executeCommand("set-file-title.initialize");
+  // set title only for new file
   workSpaceWatcher();
+  // set title for exsisting file
 }
 
 // this method is called when your extension is deactivated
